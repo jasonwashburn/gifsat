@@ -17,4 +17,4 @@ RUN if [ -f "/tmp/conda-tmp/environment.yml" ]; then umask 0002 && /opt/conda/bi
 #     && apt-get -y install --no-install-recommends <your-package-list-here>
 
 RUN conda install cartopy -y \
-    && pip install goes2go rich
+    && pip install goes2go rich pydantic
